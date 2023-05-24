@@ -1,55 +1,57 @@
+:root {
+  --body-text-color: #434455;
+  --primary-brand-color: #4d5ae5;
+  --dark-color: #2e2f42;
+}
+
 body {
   font-family: Roboto, sans-serif;
-  font-weight: 400;
-  color: #434455;
-  line-height: 24px;
+  color: var (--body-text-color);
+  line-height: 1.33;
   letter-spacing: 0.02em;
+  background: #ffffff;
 }
 
 .logotype-web {
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.67;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var (--primary-brand-color);
 }
 
 .logotype-studio {
-  font-family: 'Raleway';
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
-}
-span {
-  color: #2e2f42;
+  color: var (---dark-color);
 }
 
+.link {
+  text-decoration: none;
+}
+.navigation-item {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var (---dark-color);
+}
 .button {
-  color: #4d5ae5;
+  color: var (--primary-brand-color);
   background: #f4f4fd;
   cursor: pointer;
   border: 1px solid #e7e9fc;
   letter-spacing: 0.04em;
 }
 
-.link {
-  text-decoration: none;
-}
-
 .navigation {
   font-weight: 500;
-  color: #2e2f42;
+  color: var (---dark-color);
 }
 .heading {
   font-size: 56px;
   line-height: 60px;
   color: #ffffff;
-  background: #2e2f42;
+  background: var (---dark-color);
 }
 .list {
   list-style: none;
