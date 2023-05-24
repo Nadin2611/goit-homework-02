@@ -1,14 +1,20 @@
-.logotype-1 {
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: #434455;
+}
+
+.logotype-web {
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logotype-2 {
+
+.logotype-studio {
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
@@ -20,11 +26,7 @@
 span {
   color: #2e2f42;
 }
-body {
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
-  color: #434455;
-}
+
 .button {
   color: #4d5ae5;
   background: #f4f4fd;
@@ -48,12 +50,9 @@ body {
 .heading {
   font-size: 56px;
   line-height: 60px;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
   background: #2e2f42;
-  border: 1px solid #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .list {
   list-style: none;
