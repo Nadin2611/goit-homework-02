@@ -5,6 +5,7 @@
   --white-background: #ffffff;
   --light: #f4f4fd;
   --accent: #e7e9fc;
+  --pressed-state: #404bbf;
 }
 
 body {
@@ -28,6 +29,7 @@ body {
   text-decoration: none;
 }
 
+
 .navbar {
 }
 
@@ -35,7 +37,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.67;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
@@ -57,8 +59,11 @@ body {
   color: var(--dark-color);
 }
 
+}
+
 /*-------------------------ADRESS------------------------*/
 .contacts {
+  font-style: normal;
 }
 
 .contacts-list {
