@@ -2,6 +2,8 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   color: #434455;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
 .logotype-web {
@@ -32,8 +34,6 @@ span {
   background: #f4f4fd;
   cursor: pointer;
   border: 1px solid #e7e9fc;
-  line-height: 24px;
-  text-align: center;
   letter-spacing: 0.04em;
 }
 
@@ -43,17 +43,32 @@ span {
 
 .navigation {
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .heading {
   font-size: 56px;
   line-height: 60px;
-  letter-spacing: 0.02em;
   color: #ffffff;
   background: #2e2f42;
 }
 .list {
   list-style: none;
+}
+
+.heading-section {
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.heading-box {
+  font-size: 20px;
+}
+.button:hover,
+.button:focus {
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+.link:hover,
+.link:focus {
 }
