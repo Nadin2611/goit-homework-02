@@ -41,6 +41,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
+  
 }
 
 .logo-studio {
@@ -63,10 +64,10 @@ body {
 
 /*-------------------------ADRESS------------------------*/
 .contacts {
-  font-style: normal;
-}
+  }
 
 .contacts-list {
+  font-style: normal;
 }
 
 .contacts-item {
