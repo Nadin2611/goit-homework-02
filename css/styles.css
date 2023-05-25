@@ -57,6 +57,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-color);
 }
+.transition:hover,
+.transition:focus {
+  color: var(--pressed-state);
+}
 
 /*-------------------------ADRESS------------------------*/
 .contacts {
@@ -73,7 +77,7 @@ body {
 }
 .contacts-link:focus,
 .contacts-link:hover {
-  color: var(--primary-brand-color);
+  color: var(--pressed-state);
 }
 /*-------------------------SECTION 1------------------------*/
 .hero {
@@ -101,7 +105,8 @@ body {
   border: 1px solid var(--accent);
   letter-spacing: 0.04em;
 }
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: var(--pressed-state);
 }
 
@@ -205,6 +210,10 @@ body {
   border: 1px solid var(--accent);
   letter-spacing: 0.04em;
 }
+.button-item:hover {
+  color: var(--white-background);
+}
+
 .button-item:focus,
 .button-item:active {
   background-color: var(--pressed-state);
