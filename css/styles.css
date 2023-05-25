@@ -60,23 +60,26 @@ body {
   color: var(--dark-color);
 }
 
-}
+
 
 /*-------------------------ADRESS------------------------*/
 .contacts {
   }
-
 .contacts-list {
   font-style: normal;
 }
-
-.contacts-item {
+ .nav-link:focus,
+  .nav-link:active {
+  color: var(--primary-brand-color);
 }
+.contacts-item {
+} 
 .contacts-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--body-text-color);
+   
 }
+.contacts-list .contacts-link:focus,  .contacts-list .contacts-link:active  { color: var(--primary-brand-color);}
 /*-------------------------SECTION 1------------------------*/
 .hero {
   background: var(--dark-color);
