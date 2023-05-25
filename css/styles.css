@@ -29,7 +29,6 @@ body {
   text-decoration: none;
 }
 
-
 .navbar {
 }
 
@@ -41,7 +40,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
-  
 }
 
 .logo-studio {
@@ -60,20 +58,17 @@ body {
   color: var(--dark-color);
 }
 
-
-
 /*-------------------------ADRESS------------------------*/
 .contacts {
-  }
+}
 .contacts-list {
   font-style: normal;
-}  
+}
 .contacts-item {
-} 
+}
 .contacts-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
-   
 }
 .contacts-link:focus,
 .contacts-link:active {
@@ -87,18 +82,28 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;  text-align: center;  letter-spacing: 0.02em;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: var(--white-background);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.button { font-family: 'Roboto', sans-serif;
-  color: var(--white-background); line-height: 1.5;
-  background: var(--primary-brand-color); font-weight: 500; font-size: 16px;
-  cursor: pointer; letter-spacing: 0.04em;
+.button {
+  font-family: 'Roboto', sans-serif;
+  color: var(--white-background);
+  line-height: 1.5;
+  background: var(--primary-brand-color);
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 0.04em;
   border: 1px solid var(--accent);
   letter-spacing: 0.04em;
 }
-.button:focus, button:active {background-color: var(--pressed-state);}
+.button:focus,
+button:active {
+  background-color: var(--pressed-state);
+}
 /*-------------------------SECTION 2-----------------------*/
 .advantages {
 }
@@ -129,31 +134,43 @@ body {
 /*-------------------------SECTION 3-----------------------*/
 .projects-title {
   font-size: 36px;
-  line-height: 1.11; text-align: center;
+  line-height: 1.11;
+  text-align: center;
   text-transform: capitalize;
   color: var(--dark-color);
 }
-.images-list {}
-.image-item {}
+.images-list {
+}
+.image-item {
+}
 
 /*-------------------------SECTION 4-----------------------*/
 .team-title {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center; letter-spacing: 0.02em;
+  text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
 }
-.team-section {}
+.team-section {
+}
 
-.images-list {}
-.team-member {  
+.images-list {
+}
+.team-member {
   background: var(--white-background);
 }
- 
-.team-member-name { color: var(--dark-color); letter-spacing: 0.02em; font-weight: 500; font-size: 20px; line-height: 1.2;
+
+.team-member-name {
+  color: var(--dark-color);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
-.team-member-role { line-height: 1.5;
+.team-member-role {
+  line-height: 1.5;
 }
 
 /*-------------------------FOOTER------------------------*/
@@ -168,4 +185,19 @@ body {
   color: var(--light);
 }
 /*===================================PORTFOLIO======================================*/
-.button-section {}
+.button-section {
+}
+
+.filter-title {
+}
+.button-list {
+}
+.button-item {
+}
+
+.services-list {
+}
+.services-item {
+}
+.services-link {
+}
