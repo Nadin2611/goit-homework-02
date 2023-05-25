@@ -63,6 +63,9 @@ body {
 .nav-link:hover {
   color: var(--pressed-state);
 }
+.nav-link:active {
+  color: var(--primary-brand-color);
+}
 
 /*-------------------------ADRESS------------------------*/
 .contacts {
