@@ -57,8 +57,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-color);
 }
-.transition:hover,
-.transition:focus {
+.nav-link:focus,
+.nav-link:hover {
   color: var(--pressed-state);
 }
 
