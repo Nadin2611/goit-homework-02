@@ -60,18 +60,19 @@ body {
 
 /*-------------------------ADRESS------------------------*/
 .contacts {
+  font-style: normal;
 }
 .contacts-list {
-  font-style: normal;
 }
 .contacts-item {
 }
 .contacts-link {
   line-height: 1.5;
+  color: var(--body-text-color);
   letter-spacing: 0.02em;
 }
 .contacts-link:focus,
-.contacts-link:active {
+.contacts-link:hover {
   color: var(--primary-brand-color);
 }
 /*-------------------------SECTION 1------------------------*/
@@ -100,10 +101,10 @@ body {
   border: 1px solid var(--accent);
   letter-spacing: 0.04em;
 }
-.button:focus,
-.button:active {
+.button:hover {
   background-color: var(--pressed-state);
 }
+
 /*-------------------------SECTION 2-----------------------*/
 .advantages {
 }
@@ -154,6 +155,7 @@ body {
   color: var(--dark-color);
 }
 .team-section {
+  background: var(--light);
 }
 
 .images-list {
