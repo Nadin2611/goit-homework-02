@@ -67,11 +67,7 @@ body {
   }
 .contacts-list {
   font-style: normal;
-}
- .nav-link:focus,
-  .nav-link:active {
-  color: var(--primary-brand-color);
-}
+}  
 .contacts-item {
 } 
 .contacts-link {
@@ -79,7 +75,10 @@ body {
   letter-spacing: 0.02em;
    
 }
-.contacts-list .contacts-link:focus,  .contacts-list .contacts-link:active  { color: var(--primary-brand-color);}
+.contacts-link:focus,
+.contacts-link:active {
+  color: var(--primary-brand-color);
+}
 /*-------------------------SECTION 1------------------------*/
 .hero {
   background: var(--dark-color);
@@ -99,11 +98,11 @@ body {
   border: 1px solid var(--accent);
   letter-spacing: 0.04em;
 }
-.button:hover, button:active {background-color: var(--pressed-state);}
+.button:focus, button:active {background-color: var(--pressed-state);}
 /*-------------------------SECTION 2-----------------------*/
 .advantages {
 }
-.section-title {
+.advantages-title {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
@@ -123,22 +122,38 @@ body {
 .advantages-item-text {
   line-height: 1.5;
 }
-
+.nav-link:focus,
+.nav-link.nav-link:active {
+  color: var(--primary-brand-color);
+}
 /*-------------------------SECTION 3-----------------------*/
-.images-list {
+.projects-title {
+  font-size: 36px;
+  line-height: 1.11; text-align: center;
+  text-transform: capitalize;
+  color: var(--dark-color);
 }
-.image-item {
-}
+.images-list {}
+.image-item {}
+
 /*-------------------------SECTION 4-----------------------*/
-.team-section {
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center; letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
 }
-.team-list {
+.team-section {}
+
+.images-list {}
+.team-member {  
+  background: var(--white-background);
 }
-.team-member {
+ 
+.team-member-name { color: var(--dark-color); letter-spacing: 0.02em; font-weight: 500; font-size: 20px; line-height: 1.2;
 }
-.team-member-name {
-}
-.team-member-role {
+.team-member-role { line-height: 1.5;
 }
 
 /*-------------------------FOOTER------------------------*/
