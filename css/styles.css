@@ -75,8 +75,9 @@ body {
   color: var(--body-text-color);
   letter-spacing: 0.02em;
 }
-.contacts-link:focus,
-.contacts-link:hover {
+
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--pressed-state);
 }
 
