@@ -59,7 +59,7 @@ body {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 
 /*-------------------------ADRESS------------------------*/
@@ -211,10 +211,7 @@ body {
   border: 1px solid var(--accent);
   letter-spacing: 0.04em;
 }
-.button-item:hover {
-  color: var(--white-background);
-}
-
+.button-item:hover,
 .button-item:focus,
 .button-item:active {
   background-color: var(--pressed-state);
