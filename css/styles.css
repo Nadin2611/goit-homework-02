@@ -57,14 +57,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-color);
 }
-.nav-link:hover {
-  color: var(--pressed-state);
-}
+.nav-link:hover,
 .nav-link:focus {
-  color: var(--pressed-state);
-}
-.nav-link:active {
-  color: var(--primary-brand-color);
+  color: #404bbf;
 }
 
 /*-------------------------ADRESS------------------------*/
@@ -84,6 +79,7 @@ body {
 .contacts-link:hover {
   color: var(--pressed-state);
 }
+
 /*-------------------------SECTION 1------------------------*/
 .hero {
   background: var(--dark-color);
