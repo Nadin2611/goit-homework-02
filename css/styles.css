@@ -11,8 +11,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--body-text-color);
-  line-height: 1.33;
-  letter-spacing: 0.02em;
   background: var(--white-background);
 }
 
@@ -84,16 +82,13 @@ body {
 /*-------------------------SECTION 1------------------------*/
 .hero {
   background: var(--dark-color);
-  border: 1px solid #000000;
 }
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-background);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .button {
   font-family: 'Roboto', sans-serif;
@@ -103,8 +98,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;
-  letter-spacing: 0.04em;
-  border: 1px solid var(--accent);
   letter-spacing: 0.04em;
 }
 .button:hover,
@@ -210,8 +203,7 @@ body {
   letter-spacing: 0.04em;
 }
 .button-item:hover,
-.button-item:focus,
-.button-item:active {
+.button-item:focus {
   background-color: var(--pressed-state);
   color: var(--white-background);
 }
