@@ -135,10 +135,7 @@ body {
 .advantages-item-text {
   line-height: 1.5;
 }
-.nav-link:focus,
-.nav-link.nav-link:active {
-  color: var(--primary-brand-color);
-}
+
 /*-------------------------SECTION 3-----------------------*/
 .projects-title {
   font-size: 36px;
